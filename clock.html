@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css"> <!--conecta ao arquivo CSS-->
+
+  <title>Clock</title>
+</head>
+<body onload="relogio()" ></body> <!--onload executa o JS assim que a pág é carregada-->
+  <header>
+    <h1>Clock</h1>
+  </header>
+
+  <section>
+    <div>
+      <label id="relogio" onclick="diaSemana()"></label> <!--chama função diaSemana quando clicar nas horas-->
+      <h1 id="saudar">...</h1> <!--Saudação alterada de acordo com horário-->
+    </div>
+    <div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; KarenSouza</p>
+  </footer>  
+  <script src="script.js"></script>
+</body>
+</html>
