@@ -3,7 +3,7 @@ var data = new Date()
 var hora = data.getHours()
 
 if(hora < 12){
-saudar.innerHTML = 'Good Morning!'
+saudar.innerHTML = 'Good Morning !'
 } else if( hora <= 18){
 saudar.innerHTML = 'Good afternoon!'
 } else{

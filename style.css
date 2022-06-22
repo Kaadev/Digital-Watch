@@ -1,16 +1,19 @@
 body {
-  margin: 0;
-  background-image:url(./img/relogiolilas.jpg);
-  background-size: cover;
-  background-position: fixed;
-  background-repeat: no-repeat;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  background-image:url(./imgclock.jpg);
+  background-size:cover;
+  background-position: 30% 45%;
+  background-repeat: no-repeat; */
   font: normal 15pt Arial; 
-  color: white;
+  color: rgba(0, 0, 0, 0.611);
   text-align: center;
 }
 
 header {
-  color: white;
+  color: rgba(0, 0, 0, 0.611);
   text-align: center;
 }
 
@@ -26,19 +29,18 @@ footer {
   color: white;
   text-align: center;
   font-style: italic;
-
 }
 
 #relogio {
   font-size: 28px;
   border: solid 1px;
   border-radius: 10px;
-  background-color: #f8ea53b0;
+  background-color: rgba(0, 0, 0, 0.29);
   padding: 2px 50px;
   color: #fff;
 }
 #relogio:hover{
   transition:  0.6s;
-  background-color: #fff;
-  color: #8b2186;
+  background-color: rgba(0, 0, 0, 0.611);
+  color: white;
 }
